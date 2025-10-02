@@ -9,7 +9,7 @@ const UsersView: FC<Props> = (props) => {
   const { data } = props;
   return (
     <div className="container mx-auto">
-      <div className="grid grid-cols-3 gap-3  ">
+      <div className="grid xl:grid-cols-4 gap-3  md:grid-cols-3 sm:grid-cols-2 ">
         {data?.map((item: any) => (
           <div key={item.id} className=" border rounded-xl  ">
             <div className="flex justify-center bg-blue-50 rounded-t-xl">
